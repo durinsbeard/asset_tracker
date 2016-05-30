@@ -1,0 +1,35 @@
+.body{
+ background:#ECEFF4;   
+}
+.item-container {
+    float:left;
+    border-top: 1px #BCC0C3 solid;
+    border-bottom: 1px #BCC0C3 solid;
+    margin-top:20px;
+}
+.item {
+    float:left;
+    background: #ccc;
+    width: 100px;
+    height: 100px;
+    border-left: 1px #fff solid;
+}
+
+.item:first-child {
+    border-left: 1px #BCC0C3 solid;
+}
+
+.item:last-child {
+    border-right: 1px #BCC0C3 solid;
+}
+
+
+.item:hover {
+    background:#ECEFF4;
+    border-left:1px #BDC0C5 solid;
+    border-right:1px #BDC0C5 solid;
+}
+
+/*.item:hover + .item {
+    border-left-width: 0;
+}*/
